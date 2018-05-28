@@ -96,7 +96,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date dans le passé
 <header>
       <div id="container_logo">
     <!--<img src="images/logo_final.png">-->
-    <h1 style="color: #000000;width: 100px:margin:auto;display:inline-block;margin-top: 10px">Artwhos</h1>
+    <h1 style="color: #000000;width: 110px:margin:auto;display:inline-block;margin-top: 10px">Artwhos</h1>
       </div>
 
   <!--<div id="container" style="width: 1220px;height: 50px;position: absolute;top:150px">
