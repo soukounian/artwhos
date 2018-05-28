@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*
+{
+	/*color: #3b565f;*/
+	color: #848484;
+
+}
+
+
+html,body 
+{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#social_media:hover
+{
+	background-color: rgba(59,86,95,0.8);
+}
+
+
+#containervideo
+{
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+
+#newsletter
+{
+	height:500px;
+	width: 700px;
+	background-color: white;
+	box-shadow: -1px -2px 8px 4px #888888;
+	position: relative;
+	margin: auto;	
+	margin-top: 60px;
+	z-index: 2000000000;
+	color: #3b565f;
+	font-family: "arial unicode ms";
+	/*font-family: "arial unicode ms";
+	font-family: "Bangla MN";*/
+	font-size: 12px;
+}
+
+#menu-border
+{
+	width: 150px;
+	height: 0px;
+	border: 1px solid #000000;
+	position: absolute;
+	top: 60px;
+	z-index: 100000000;
+}
+
+
+
+video 
+{
+	z-index: 100000000;
+}
+
+
+		header
+		{
+			width: 100%;
+			height: 50px;
+		}
+		#item 
+		{
+			width: 33.33%;
+			height: 50px;
+			float: left;
+			box-sizing: border-box;
+			padding-top: 20px;
+			text-align: center;
+		}
+
+		#container
+		{
+			width: 8px;
+			height: 50px;
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+			overflow: hidden;
+		}
+
+		#btn_menu
+		{
+			width: 50px;
+			height: 52px;
+			position: absolute;
+			z-index: 10000;
+			background-color: white;
+		}
+
+		#offset_logo
+		{
+			height: 200px;
+			width: 135%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#logo
+		{
+			height: 48px;
+			width: 48px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: purple;
+			position: relative;
+		}
+
+		#container_logo
+		{
+			width: 100%;
+			height: 50px;
+			position: absolute;
+			z-index: -10000;
+			text-align: center;
+		}
+
+
+		.container_reso
+		{
+			margin-top: 80px;
+			width: auto;
+			height: 100px;
+		}
+		div#container_logo > img
+		{
+			margin-left: auto;
+    		margin-right: auto;
+    		display: block;
+    		width: 10%;
+		}
+
+		div#item > li 
+		{
+			width: 50%;
+			text-decoration: none;
+			float: left;
+			display: inline-block;
+		}
+
+		div#item > li#item_offset 
+		{
+			width: 33.33%;
+			text-decoration: none;
+			float: left;
+			display: inline-block;
+		}
+
+		li > a, li#item_offset > a
+		{
+			color: #848484;
+			text-decoration: none;	
+		}
